@@ -50,7 +50,7 @@ text-decoration: 7px underline white;
 }
 .car h3{
   top:-20px;font-size: 30px;position: relative; text-align: center;
-  left:0px;text-decoration: 7px underline white;color:white;
+  left:-20px;text-decoration: 7px underline white;
 }
 .car a{
   text-decoration: none;
@@ -189,6 +189,46 @@ font-weight: 700;
       </div>
     </div>
   </nav>
+  <div class="wa">
+    <a href="https://wa.me/919841266367"><img src="im/wat.png">
+    <Style>
+      @keyframes anim {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    height: 50px;
+        width: 50px;
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+    height: 55px;
+    width: 55px;
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);height: 50px;
+        width: 50px;
+  }}
+      .wa img{
+        height: 50px;
+        width: 50px;
+       position: fixed;
+       border-radius: 50%;
+       float:right;
+       margin-left: 85%;
+       animation: anim  6s ease-in-out infinite;;
+      }
+      @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .wa img{
+    margin-left: 95%;
+  }
+  }
+    </Style>
+    </a></div>
  <section class="hero">
  <img src="im/co2.png">
   <h1>Insurance</h1>
@@ -201,7 +241,7 @@ font-weight: 700;
       <div class="col-sm-12 col-lg-3">
         <div class="car">
           <img src="im/end.png">
-        <h1>Endowment</h1>
+        <h1>Endoment</h1>
        <br> <center><a href="en.html">Know more</a></center>
       </div>
       </div>
